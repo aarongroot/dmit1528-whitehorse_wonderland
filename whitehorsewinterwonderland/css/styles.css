@@ -1,10 +1,10 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 :root {
-    --red: #ec0a18;
+    --lt-blue: #15779a;
     --black: #000;
     --white: #fff;
-    --header-blue: #344256;
+    --header-blue: #01122c;
     --bg-card: #f7f7f6;
     --bg-scroll-hover: #0e7e79;
 
@@ -26,7 +26,7 @@ body {
 }
 
 .red-btn {
-    background-color: var(--red);
+    background-color: var(--lt-blue);
     text-decoration: none;
     color: var(--white);
     border-radius: 0.75rem;
@@ -65,10 +65,10 @@ p {
 }
 
 /* ****************************Header****************************** */
-header{
- position: sticky;
- top: 0;
- background-color: var(--white);
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--white);
 }
 
 .header-flex {
@@ -80,8 +80,8 @@ header{
     padding: 0.5rem 1rem;
 }
 
-.header-flex img {
-    width: 5.5rem;
+h1 img {
+    width: 30%;
 }
 
 .header-flex button {
@@ -125,26 +125,43 @@ ul.menu a {
     font-size: 1rem;
 }
 
-ul.menu a:hover{
-    color: var(--red);
+ul.menu a:hover {
+    color: var(--lt-blue);
 }
 
-ul.menu li{
+ul.menu li {
     line-height: 2.5rem;
     border-bottom: 1px solid rgb(196, 194, 194);
     padding: 0 1rem;
 }
 
-ul.menu li:first-of-type{
+ul.menu li:first-of-type {
     border-top: 1px solid rgb(196, 194, 194);
 }
 
 /* *************************Main Content******************************* */
 
+.banner-img {
+    background-image: url(../img/aurora-1190254_1920.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    height: 50rem;
+}
+
+.experience {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.541);
+    margin: 6rem 0;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 2rem;
+}
+
+.experience-container {
+    margin: 1.5rem;
+}
+
 .experience-form {
-    background-image: url(../img/magnifying-glass.gif);
-    background-repeat: no-repeat;
-    background-position: 100%;
     width: 90vw;
     padding: 0.4rem 0.75rem;
     border-radius: 12px;
@@ -164,6 +181,20 @@ ul.menu li:first-of-type{
 .get-started section svg {
     width: 5.3125rem;
     margin-bottom: 1rem;
+}
+
+.start-flex a {
+    text-decoration: none;
+}
+
+.start-flex a h3 {
+    text-decoration: none;
+    color: var(--header-blue);
+}
+
+.start-flex a p {
+    text-decoration: none;
+    color: var(--black);
 }
 
 .explore h2 {
@@ -192,7 +223,7 @@ ul.menu li:first-of-type{
     color: var(--white);
 }
 
-.lessons-flex .blue-card h3{
+.lessons-flex .blue-card h3 {
     color: var(--white);
 }
 
@@ -265,12 +296,12 @@ ul.menu li:first-of-type{
     font-weight: bold;
 }
 
-.load-more:hover{
-    background-color: var(--red);
+.load-more:hover {
+    background-color: var(--lt-blue);
 }
 
 .join-us {
-    background-color: var(--red);
+    background-color: var(--lt-blue);
     color: var(--white);
     padding: 1.5rem 0;
 }
@@ -291,23 +322,23 @@ ul.menu li:first-of-type{
     width: 6rem;
 }
 
-.join-us form div input[type="submit"]:hover{
+.join-us form div input[type="submit"]:hover {
     background-color: var(--bg-scroll-hover);
     cursor: pointer;
 }
 
-.footer-ul-flex{
+.footer-ul-flex {
     margin-bottom: 3rem;
 }
 
 
 /* *****************************************Volunteer************************** */
 
-.explore .volunteer-h2 {
+/* .explore .volunteer-h2 {
     font-size: 2.8125rem;
 }
 
-.start-flex section h3{
+.start-flex section h3 {
     color: var(--bg-scroll-hover);
 }
 
@@ -335,7 +366,7 @@ ul.menu li:first-of-type{
 }
 
 .red {
-    color: var(--red);
+    color: var(--lt-blue);
 }
 
 fieldset {
@@ -357,7 +388,7 @@ fieldset:first-of-type input {
 input[id="Name"]:invalid,
 input[id="p-number"]:invalid,
 input[id="email"]:invalid {
-    outline: 1px solid var(--red);
+    outline: 1px solid var(--lt-blue);
 }
 
 fieldset:last-of-type label {
@@ -370,12 +401,12 @@ fieldset:last-of-type {
 
 input[value="Send"] {
     border: none;
-}
+} */
 
 /* *********************************footer**************************** */
 
 footer img {
-    width: 5.3125rem;
+    width: 50%;
     margin-top: 1.5rem;
 }
 
@@ -386,15 +417,15 @@ footer ul a {
     text-align: right;
 }
 
-footer ul a:hover{
-    color: var(--red);
+footer ul a:hover {
+    color: var(--lt-blue);
 }
 
 footer ul {
     text-align: right;
     margin: 0;
     margin-right: 1.5rem;
-    
+
 }
 
 .sub-footer {
@@ -408,25 +439,25 @@ footer ul {
 /* **********************************Media Query*************************** */
 
 @media screen and (min-width:46.875rem) {
-    .start-flex{
+    .start-flex {
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
     }
 
-    .get-started section{
+    .get-started section {
         flex: 1 1 calc(50% - 1rem);
     }
 
-    .experience-form{
+    .experience-form {
         width: 90%;
     }
 
-    .community-card{
+    .community-card {
         max-width: calc(50% - 0.5rem);
     }
 
-    .experience{
+    .experience {
         width: 75%;
     }
 
@@ -434,26 +465,27 @@ footer ul {
         font-size: 2.5rem;
     }
 
-    .get-started .red-btn{
+    .get-started .red-btn {
         width: 17.5rem;
     }
 
-    .start-flex article{
+    .start-flex article {
         flex: 1 0 calc(50% - 1rem);
     }
 
-    .join-us form{
+    .join-us form {
         width: 90%;
     }
-    .form-flex{
+
+    .form-flex {
         display: flex;
     }
 
-    .form-flex div{
+    .form-flex div {
         width: 70%;
     }
-  
-    .form-flex div:last-of-type{
+
+    .form-flex div:last-of-type {
         flex: 0 0 4.25rem;
     }
 
@@ -462,13 +494,13 @@ footer ul {
     }
 
     .join-us form div input[type="submit"] {
-       border-radius: 0 8px 8px 0;
-       border-left: 1px solid var(--black);
+        border-radius: 0 8px 8px 0;
+        border-left: 1px solid var(--black);
     }
 
     /* *****************************Volunteer*************************** */
 
-    .start-flex section{
+    /* .start-flex section {
         flex: 1 0 calc(50% - 1rem);
     }
 
@@ -480,7 +512,7 @@ footer ul {
         background-image: url(../img/parallax-banner-med.webp);
     }
 
-    .sign-up-form fieldset:first-of-type{
+    .sign-up-form fieldset:first-of-type {
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
@@ -490,11 +522,11 @@ footer ul {
         width: 100%;
     }
 
-    .sign-up-form fieldset:first-of-type div{
+    .sign-up-form fieldset:first-of-type div {
         flex: 1 0 calc(50% - 1rem);
     }
 
-    .sign-up-form fieldset:first-of-type .postal-code{
+    .sign-up-form fieldset:first-of-type .postal-code {
         flex: 0 0 13.75rem;
     }
 
@@ -509,38 +541,39 @@ footer ul {
 
     }
 
-    .sign-up-form fieldset:last-of-type div{
+    .sign-up-form fieldset:last-of-type div {
         flex: 1 0 calc(40% - 1rem);
-    }
+    } */
+
     /* ********************************footer***************************** */
-    .footer-flex{
+    .footer-flex {
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin: 1.5rem 0;
     }
 
-    .footer-ul-flex{
+    .footer-ul-flex {
         display: flex;
         margin-bottom: 0;
     }
 }
 
 @media screen and (min-width:1160px) {
-    
+
     /* *********************header************** */
-  
-    
-       .toggle-btn{
+
+
+    .toggle-btn {
         display: none;
-       }
-       
-       header{
-        
+    }
+
+    header {
+
         box-shadow: 1px 13px 10px -6px rgba(0, 0, 0, 0.11);
-       }
-       
-     header nav {
+    }
+
+    header nav {
         position: static;
         padding: 0;
         width: auto;
@@ -549,32 +582,33 @@ footer ul {
         gap: 2rem;
         overflow: visible;
     }
-       ul.menu {
-           display: flex;
-       }
 
-       ul.menu li{
-        border: none;
-       }
+    ul.menu {
+        display: flex;
+    }
 
-       ul.menu li:first-of-type{
+    ul.menu li {
         border: none;
-       }
-       
-       .header-flex {
+    }
+
+    ul.menu li:first-of-type {
+        border: none;
+    }
+
+    .header-flex {
         box-shadow: none;
         margin: 0;
-       }
-       
-       .container{
+    }
+
+    .container {
         margin: 0 auto;
         max-width: 1160px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-       }
-       
-       ul.menu li:hover>ul.submenu {
+    }
+
+    ul.menu li:hover>ul.submenu {
         visibility: visible;
         opacity: 1;
     }
@@ -584,39 +618,39 @@ footer ul {
         visibility: visible;
         opacity: 1;
     }
-  
+
 
     /* **************************************** */
 
 
 
 
-    .experience{
+    .experience {
         width: 50%;
     }
 
-    .get-started section{
+    .get-started section {
         flex: 1 1 calc(33% - 2rem);
     }
 
-    .start-flex article{
+    .start-flex article {
         flex: 1 0 calc(25% - 3rem);
     }
 
-    .join-us form{
+    .join-us form {
         width: 50%;
     }
 
-    .general-flex{
+    .general-flex {
         display: flex;
         gap: 1rem;
     }
 
-    .general-flex .start-flex{
+    .general-flex .start-flex {
         width: 160%;
     }
 
-    .sign-up-form fieldset:last-of-type div{
+    .sign-up-form fieldset:last-of-type div {
         flex: 0 0 content;
     }
 
@@ -624,7 +658,7 @@ footer ul {
         gap: 3rem;
     }
 
-    .sign-up-form .red-btn{
+    .sign-up-form .red-btn {
         max-width: 560px;
     }
 
