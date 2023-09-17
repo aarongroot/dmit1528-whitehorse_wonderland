@@ -315,7 +315,7 @@ ul.menu li:first-of-type {
     border-radius: 8px;
     border: none;
     padding: 0.5rem 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .join-us form div input[type="submit"] {
@@ -327,81 +327,17 @@ ul.menu li:first-of-type {
     cursor: pointer;
 }
 
+.join-us form a {
+    color: var(--white);
+
+}
+
 .footer-ul-flex {
     margin-bottom: 3rem;
 }
 
 
-/* *****************************************Volunteer************************** */
 
-/* .explore .volunteer-h2 {
-    font-size: 2.8125rem;
-}
-
-.start-flex section h3 {
-    color: var(--bg-scroll-hover);
-}
-
-.sign-up {
-    background-image: url(../img/parallax-banner-sm.webp);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 50% 0;
-    height: 14.0625rem;
-}
-
-.sign-up h2 {
-    margin: 0 auto;
-    padding: 5rem 1rem;
-    max-width: 72.5rem;
-    color: var(--white);
-}
-
-.bg-form {
-    background-color: var(--bg-card);
-}
-
-.sign-up-form {
-    padding-top: 1rem;
-}
-
-.red {
-    color: var(--lt-blue);
-}
-
-fieldset {
-    border: none;
-}
-
-fieldset label {
-    display: block;
-}
-
-fieldset:first-of-type input {
-    width: 100%;
-    border-radius: 4px;
-    border: 1px solid rgb(175, 175, 175);
-    padding: 0.25rem 0.75rem;
-    margin-bottom: 1.5rem;
-}
-
-input[id="Name"]:invalid,
-input[id="p-number"]:invalid,
-input[id="email"]:invalid {
-    outline: 1px solid var(--lt-blue);
-}
-
-fieldset:last-of-type label {
-    display: inline;
-}
-
-fieldset:last-of-type {
-    margin-bottom: 1.5rem;
-}
-
-input[value="Send"] {
-    border: none;
-} */
 
 /* *********************************footer**************************** */
 
