@@ -29,6 +29,26 @@ source:https://pixabay.com/photos/salmon-sockeye-fish-water-nature-2760196/
 dog-sledding - Photo alaska hokie
 source:https://pixabay.com/photos/sledge-sled-sleigh-winter-snow-92997/
 
+cabin-in-woods - Monicore
+source:https://pixabay.com/photos/cabin-house-mountain-snow-cold-997781/
+
+inner-cabin - 1778011
+Source:https://pixabay.com/photos/log-cabin-inside-indoors-interior-4030556/
+
+bed-and-breakfast - Michelle Raponi
+source:https://pixabay.com/photos/vermont-green-mountains-bed-flowers-3545041/
+
+zumba - Andrzej Rembowski
+source:https://pixabay.com/photos/zumba-marathon-sport-exercise-4333580/
+
+microphone - Tumisu
+source:https://pixabay.com/photos/microphone-vintage-brick-wall-retro-6046111/
+
+skating - Westjl2
+source:https://pixabay.com/photos/winter-skating-ice-skate-activity-2495882/
+
+elk - Gypsy Girls
+source:https://pixabay.com/photos/reindeer-elk-deer-buck-antlers-5635891/
 ----Content----
 
 ChatGPT
