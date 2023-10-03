@@ -47,8 +47,23 @@ source:https://pixabay.com/photos/microphone-vintage-brick-wall-retro-6046111/
 skating - Westjl2
 source:https://pixabay.com/photos/winter-skating-ice-skate-activity-2495882/
 
-elk - Gypsy Girls
+reindeer - Gypsy Girls
 source:https://pixabay.com/photos/reindeer-elk-deer-buck-antlers-5635891/
+
+owl - christels
+source:https://pixabay.com/photos/snowy-owl-bird-raptor-animal-owl-3309209/
+
+dog-sled-2 -pasja1000
+source:https://pixabay.com/photos/sled-race-snow-dogs-winter-3953650/
+
+helicopter - ChiemSeherin
+source:https://pixabay.com/photos/mountains-helicopter-landscape-5734916/
+
+elk - UP-free
+source:https://pixabay.com/photos/elk-wild-animal-deer-nature-498471/
+
+river-boat - clarencealford
+source:https://pixabay.com/photos/river-boat-paddle-wheel-riverboat-3570260/
 ----Content----
 
 ChatGPT

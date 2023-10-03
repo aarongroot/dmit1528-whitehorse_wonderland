@@ -455,6 +455,10 @@ footer ul {
         flex: 1 0 calc(50% - 1rem);
     }
 
+    .excursions{
+        flex: 1 0 100%;
+    }
+
     .join-us form {
         width: 90%;
     }
@@ -495,7 +499,7 @@ footer ul {
     }
 }
 
-@media screen and (min-width:1160px) {
+@media screen and (min-width:1000px) {
 
     /* *********************header************** */
 
@@ -559,7 +563,7 @@ footer ul {
     /* **************************************** */
 
     .events-flex {
-        height: 420px;
+        height: 400px;
     }
 
     .show-events {
@@ -574,6 +578,10 @@ footer ul {
 
     .get-started section {
         flex: 1 1 calc(33% - 2rem);
+    }
+
+    .get-started .last-excursion{
+        flex: 1 1 calc(50% - 1rem);
     }
 
     .start-flex article {
@@ -614,7 +622,7 @@ footer ul {
     .accomo-flex{
         display: flex;
         flex-direction: column;
-        height: 800px;
+        height: 700px;
     }
 
     .accomo-flex a{
