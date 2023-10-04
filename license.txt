@@ -64,6 +64,9 @@ source:https://pixabay.com/photos/elk-wild-animal-deer-nature-498471/
 
 river-boat - clarencealford
 source:https://pixabay.com/photos/river-boat-paddle-wheel-riverboat-3570260/
+
+mountain-banner - The Digital Artist
+source:https://pixabay.com/photos/banner-mountain-landscape-panorama-2156395/
 ----Content----
 
 ChatGPT
