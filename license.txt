@@ -71,3 +71,4 @@ source:https://pixabay.com/photos/banner-mountain-landscape-panorama-2156395/
 
 ChatGPT
 https://chat.openai.com/c/499f68a1-b917-4bde-a207-81719759e390
+https://chat.openai.com/c/f809a31f-4437-4dae-833c-83f0abc3321d

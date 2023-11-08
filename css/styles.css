@@ -357,7 +357,7 @@ ul.menu li:first-of-type {
 }
 
 .mid-banner {
-    background-image: url(../img/banner-2156395_1920.jpg);
+    background-image: url(../img/banner.webp);
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 0;
@@ -438,6 +438,47 @@ footer ul {
     padding: 3rem 0;
 }
 
+/* -- Code for the Cookie Compliance popover window -- */
+#cookiePopup {
+    background-color: #ffffff;
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    font-size: 14px;
+    width: 90%;
+    box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    line-height: 1.8em;
+    margin: 0 auto;
+    padding: 2em 1.4em;
+    border-radius: 6px;
+    transition: all 0.5s ease-in-out;
+  }
+  #cookiePopup p {
+    text-align: center;
+    margin: 1.4em 0;
+  }
+  #cookiePopup button {
+    background-color: #3f704d;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 1em 1.4em;
+    display: block;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+  }
+  #cookiePopup a {
+    color:#3f704d;
+  }
+  .hide {
+    visibility: hidden;
+  }
+  .show {
+    visibility: visible;
+   }
 
 
 
