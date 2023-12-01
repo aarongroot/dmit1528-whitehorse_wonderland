@@ -69,6 +69,7 @@ header {
     position: sticky;
     top: 0;
     background-color: var(--white);
+    z-index: 10;
 }
 
 .header-flex {
@@ -80,9 +81,6 @@ header {
     padding: 0.5rem 1rem;
 }
 
-header img {
-    width: 30%;
-}
 
 .header-flex button {
     border: none;
@@ -409,9 +407,16 @@ ul.menu li:first-of-type {
 
 
 /* *********************************footer**************************** */
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: #fff;
+}
+
+
 
 footer img {
-    width: 50%;
+    width: 100%;
     margin-top: 1.5rem;
 }
 
@@ -419,7 +424,9 @@ footer ul a {
     text-decoration: none;
     color: var(--black);
     font-family: 'Ubuntu', sans-serif;
-    text-align: right;
+    text-align: center;
+    display: block;
+    padding: 1.5rem;
 }
 
 footer ul a:hover {
@@ -454,12 +461,14 @@ footer ul {
     padding: 2em 1.4em;
     border-radius: 6px;
     transition: all 0.5s ease-in-out;
-  }
-  #cookiePopup p {
+}
+
+#cookiePopup p {
     text-align: center;
     margin: 1.4em 0;
-  }
-  #cookiePopup button {
+}
+
+#cookiePopup button {
     background-color: #3f704d;
     border: none;
     color: #ffffff;
@@ -469,18 +478,59 @@ footer ul {
     position: relative;
     margin: auto;
     border-radius: 5px;
-  }
-  #cookiePopup a {
-    color:#3f704d;
-  }
-  .hide {
+}
+
+#cookiePopup a {
+    color: #3f704d;
+}
+
+.hide {
     visibility: hidden;
-  }
-  .show {
+}
+
+.show {
     visibility: visible;
-   }
+}
 
+/* ********************************************BLOG****************************** */
 
+.bg-video {
+    position: fixed;
+    right: 0;
+    top: 5.5rem;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.bg-overlay {
+    position: relative;
+    top: 3rem;
+    background: rgba(0, 0, 0, 0.603);
+    color: #f1f1f1;
+    max-width: 90rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+}
+
+.date {
+    color: rgb(158, 156, 156);
+}
+
+.columns {
+    columns: 29rem auto;
+
+}
+
+.columns a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.columns a:hover {
+    text-decoration: underline;
+}
 
 /* **********************************Media Query*************************** */
 
@@ -566,6 +616,10 @@ footer ul {
     .footer-ul-flex {
         display: flex;
         margin-bottom: 0;
+    }
+
+    footer img {
+        width: 50%;
     }
 }
 
